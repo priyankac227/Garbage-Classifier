@@ -7,9 +7,8 @@ from sklearn.metrics import confusion_matrix, classification_report
 from collections import Counter
 
 import tensorflow as tf
-from tensorflow.keras import layers, models, optimizers, callbacks, regularizers
+from keras import layers, models, optimizers, callbacks, regularizers
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
-
 SEED = 42
 random.seed(SEED); np.random.seed(SEED); tf.random.set_seed(SEED)
 
