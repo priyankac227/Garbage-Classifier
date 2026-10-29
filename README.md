@@ -1,4 +1,4 @@
-# garbage-classifier# ♻️ Garbage Classification Using CNN
+# ♻️ Garbage Classification Using CNN
 
 A deep learning project that classifies waste images into six categories using a Convolutional Neural Network (CNN). The trained model is integrated with a Streamlit web application, allowing users to upload an image and receive a predicted waste category along with a confidence score.
 
